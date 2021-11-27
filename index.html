@@ -59,7 +59,6 @@
       width: 160px;
       height: 120px;
       float: left;
-      background: #D26;
       border: 2px solid #333;
       border-color: hsla(0, 0%, 0%, 0.5);
       border-radius: 5px;
@@ -120,56 +119,168 @@
       right: -2px;
     }
 
+    .joy {
+      position: absolute;
+      top: 10vh;
+      transform: translateY(-50%) rotate(
+        10deg);
+      right: 5vw;
+      height: 200px;
+      width: auto;
+    }
+
+    .fam {
+      position: absolute;
+      top: 56vh;
+      transform: translateY(-50%) rotate(10deg);
+      left: 43vw;
+      height: 500px;
+      width: auto;
+    }
+
+    .fam2 {
+      position: absolute;
+      top: 5vh;
+      transform: rotate(-10deg);
+      left: 30vw;
+      height: 300px;
+      width: auto;
+    }
+
+    .bitcoin {
+      position: absolute;
+      top: 20vh;
+      transform: translateY(-50%) rotate(-15deg);
+      left: 5vw;
+      height: 200px;
+      width: auto;
+    }
+
+    .esp {
+      position: absolute;
+      top: 80vh;
+      transform: translateY(-50%) rotate(-20deg);
+      left: 20vw;
+      height: 300px;
+      width: auto;
+    }
+
+    .travel {
+      position: absolute;
+      top: 40vh;
+      transform: translateY(-30%) rotate(0deg);
+      left: 12vw;
+      height: 300px;
+      width: auto;
+    }
+
+    .house  {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 300px;
+      width: auto;
+    }
+
+    .car {
+      position: absolute;
+      top: 50vh;
+      transform: translateY(-50%) rotate(0deg);
+      right: 0;
+      height: 250px;
+      width: auto;
+    }
+
+    .love {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 200px;
+      width: auto;
+    }
+
+    .word {
+      position: absolute;
+      font-size: 4em;
+      z-index: 999;
+      text-shadow: 3px 3px 3px #000;
+    }
+
+    .happy {
+      right: 40px;
+      top: 200px;
+      font-family: system-ui;
+    }
+
+    .honesty {
+      bottom: 0;
+      right: 40%;
+      font-family: monospace;
+    }
+
+    .energie {
+      transform: rotate(-90deg);
+      bottom: 43%;
+      left: 0;
+      font-family: fantasy;
+      text-shadow: 4px 4px 5px red;
+    }
+
+    .pill {
+      transform: rotate(-20deg);
+      top: 60%;
+      left: 0;
+      font-family: cursive;
+    }
+
+    .plana {
+      transform: rotate(20deg);
+      top: 60%;
+      right: 70px;
+      font-family: monospace;
+      font-weight: bold;
+      text-shadow: -5px -12px 12px green;
+    }
+
+    .worry {
+      font-family: fantasy;
+      font-weight: bold;
+    }
+
   </style>
 </head>
 
 <body>
+<svg width="0" height="0" viewBox="0 0 400 300">
+  <defs>
+    <mask id="mask">
+      <circle fill="#FFFFFF" cx="150" cy="150" r="100" />
+      <circle fill="#FFFFFF" cx="50" cy="50" r="150" />
+    </mask>
+  </defs>
+</svg>
+
   <main class="box">
     <div class="box-inner grid effect-2" >
-      <img class="grid-sizer" src="https://www.hortus-ancker.nl/media/8d8e880ca35c2ad/hortus-20ancker-20-20beeld-203.png?height=600">
-      <img class="grid-item" src="https://lengersyachts.com/wp-content/uploads/2020/09/Bluegame-BGX70-exterior-Lengers-Yachts-7-scaled.jpg">
-      <img class="grid-item" src="https://images.squarespace-cdn.com/content/v1/5519ab2ee4b02a4410b6a7c6/1573572780880-TNGN7R4EX4N141SBXP50/beautiful-hands-heart-5390.jpg"><span>Love</span>
-      <img class="grid-item" src="https://i.pinimg.com/originals/1c/af/b4/1cafb40f8a056b0c0bb3ca61e38a98df.jpg">
-      <video class="grid-item lazyload-in-view lazyloading" data-src="https://hmg-h-cdn.hearstapps.com/videos/cadillac-celestiq-loop-1610465448.mp4" autoplay="" loop="" muted="" playsinline="" src="https://hmg-h-cdn.hearstapps.com/videos/cadillac-celestiq-loop-1610465448.mp4"></video>
-      <img class="grid-item" src="https://travelrumors.com/wp-content/uploads/2018/07/voorbereidingen-wereldreis-1-travel-rumors-1.jpg">
-      <img class="grid-item" src="https://d1bvpoagx8hqbg.cloudfront.net/originals/my-experience-learning-spanish-language-55d91655c9643ba13c04c89dab25b3c4.jpg">
-      <img class="grid-item" src="https://media2.giphy.com/media/Ta2eHM043vhVS/200.gif" alt=""><span>Feel JOY!</span>
-      <img class="grid-item" src="https://image.cnbcfm.com/api/v1/image/106962967-1634709558798-gettyimages-1235570383-porzycki-cryptocu210928_npbUe.jpeg?v=1635185551" alt="">
+      <img class="grid-sizer house" src="https://www.hortus-ancker.nl/media/8d8e880ca35c2ad/hortus-20ancker-20-20beeld-203.png?height=600">
+      <img class="grid-item love" src="https://images.squarespace-cdn.com/content/v1/5519ab2ee4b02a4410b6a7c6/1573572780880-TNGN7R4EX4N141SBXP50/beautiful-hands-heart-5390.jpg">
+      <img class="grid-item fam2" src="https://i.pinimg.com/originals/1c/af/b4/1cafb40f8a056b0c0bb3ca61e38a98df.jpg">
+      <video class="grid-item car lazyload-in-view lazyloading" data-src="https://hmg-h-cdn.hearstapps.com/videos/cadillac-celestiq-loop-1610465448.mp4" autoplay="" loop="" muted="" playsinline="" src="https://hmg-h-cdn.hearstapps.com/videos/cadillac-celestiq-loop-1610465448.mp4"></video>
+      <img class="grid-item travel" src="https://travelrumors.com/wp-content/uploads/2018/07/voorbereidingen-wereldreis-1-travel-rumors-1.jpg">
+      <img class="grid-item esp" src="https://d1bvpoagx8hqbg.cloudfront.net/originals/my-experience-learning-spanish-language-55d91655c9643ba13c04c89dab25b3c4.jpg">
+      <img class="grid-item joy" src="https://media2.giphy.com/media/Ta2eHM043vhVS/200.gif" alt="">
+      <img class="grid-item bitcoin" src="https://image.cnbcfm.com/api/v1/image/106962967-1634709558798-gettyimages-1235570383-porzycki-cryptocu210928_npbUe.jpeg?v=1635185551" alt="">
+      <img class="grid-item fam"  src="img/80959551-B95B-4C03-9D70-999998FB4980.jpeg" />
 
 
-        <img class="grid-item" src="img/5F69ADCF-D161-42AE-A874-41A6070BCAB2.jpeg" />
-
-
-        <img class="grid-item" src="img/64814241028__9BF9368F-F7B7-4DCE-9DE2-38F3D033AAED.fullsizerender.jpeg"/>
-
-
-        <img class="grid-item" src="img/80959551-B95B-4C03-9D70-999998FB4980.jpeg" />
-
-
-        <img class="grid-item" src="img/Screenshot 2021-10-31 at 23.35.52.png" />
-
-
-        <img class="grid-item" src="img/Screenshot 2021-10-31 at 23.36.08.png"/>
-
-
-        <img class="grid-item" src="img/Screenshot 2021-10-31 at 23.36.27.png"/>
-
-
-        <img class="grid-item" src="img/Screenshot 2021-10-31 at 23.36.46.png" />
-      <li>Happiness </li>
-      <li>No worries</li>
-      <li>Energy</li>
-      <li>Mindset</li>
+      <span class="word happy">Happiness </span>
+      <span class="word worry">No worries</span>
+      <span class="word energie">Energy</span>
+      <span class="word honesty">Honesty</span>
+      <span class="word plana">Plan A </span>
+      <span class="word pill">"There is no magic pill"</span>
     </div>
   </main>
-<script>
-    var msnry = new Masonry( '.grid', {
-        columnWidth: '.grid-sizer',
-        itemSelector: '.grid-item',
-        percentPosition: true
-    });
-
-</script>
 </body>
 
 </html>
